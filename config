@@ -1,0 +1,8 @@
+ALTER TABLE employee AUTO_INCREMENT=1;
+
+
+DELETE FROM employee where id=2;CREATE TABLE `employee` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `empName` varchar(40) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
