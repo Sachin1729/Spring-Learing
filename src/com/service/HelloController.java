@@ -53,6 +53,10 @@ public class HelloController {
 
 		emp.showData();
 
+		Employee emp2 = (Employee) a.getBean("emp2");
+		System.out.println("Data after setter injection");
+		emp2.show();
+
 		m.addAttribute("name", name);
 		return "home";
 	}
